@@ -37,5 +37,7 @@
     </form>
 </main>
 
+<script src="./data.js">
+</script>
 </body>
 </html>
