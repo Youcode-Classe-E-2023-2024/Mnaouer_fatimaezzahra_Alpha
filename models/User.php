@@ -33,11 +33,4 @@ class User
 
         return $result->fetch_assoc();
     }
-
-    function logout()
-    {
-        session_destroy();
-        header("Location: index.php?page=login");
-        exit();
-    }
 }

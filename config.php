@@ -1,12 +1,9 @@
 <?php
+session_start();
 
 $db = mysqli_connect("localhost", "root", "", "alpha_table");
 
-if(!$db){
-    die(mysqli_error($db));}
-// }else{
-//     die(mysqli_error($db));
-// }
+if(!$db) die(mysqli_error($db));
 
 function dd($var) {
     echo '<pre>';

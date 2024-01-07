@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 include_once 'config.php';
 
 // si la pagina est vuota mandami alla pagina di casa si no mandami alla pagina domandata
